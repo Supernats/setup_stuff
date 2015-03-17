@@ -1,0 +1,20 @@
+[alias]
+  co = checkout
+  yolo = push --force
+[core]
+  excludesfile = /Users/nathanseither/.gitignore_global
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = blue bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan

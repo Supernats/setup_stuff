@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<root>
+    <item>
+      <name>Right Command to Omni</name>
+      <identifier>com.jasonrudolph.right_command_hyper</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::COMMAND_R, ModifierFlag::COMMAND_R | ModifierFlag::NONE,
+        KeyCode::COMMAND_L, ModifierFlag::OPTION_L | ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L
+      </autogen>
+    </item>
+</root>

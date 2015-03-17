@@ -1,0 +1,13 @@
+" Case-insensitve search
+set ignorecase
+
+" Case-sensitive is expression contains a capital
+set smartcase
+
+set relativenumber
+set number
+
+
+" Comment and uncomment
+nnoremap gcc :xccmd commentAndUncommentCurrentLines<CR>
+vnoremap gcu :xccmd commentAndUncommentCurrentLines<CR>
